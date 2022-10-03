@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+input,
+textarea,
+div {
+  outline: none;
+  border: none;
+  background: none;
+  resize: none;
+}
+.img-fit {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inherit;
+}
+.smooth {
+  transition: 0.5s;
+}
+body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .namecard {
+  width: 620px;
+  height: 372px;
+  box-shadow: 10px 10px 10px #cccccc;
+}
+body .namecard img {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=index.css.map */
