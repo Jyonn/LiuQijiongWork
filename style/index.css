@@ -79,6 +79,7 @@ div.portrait-box div.portrait {
   background-image: url("https://image.6-79.cn/work/red-t.png");
   margin-top: 30vh;
   filter: drop-shadow(10px 10px 30px #210b0c);
+  cursor: pointer;
 }
 div.portrait-box div.portrait:hover {
   width: 102%;
