@@ -85,4 +85,13 @@ div.portrait-box div.portrait:hover {
   height: 102%;
   filter: drop-shadow(10px 10px 100px #210b0c);
 }
+div.info {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  top: 10%;
+  font-family: AvenirCondensed, serif;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.6);
+}
 /*# sourceMappingURL=index.css.map */
