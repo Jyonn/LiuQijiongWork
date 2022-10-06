@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
+@font-face {
+  font-family: AvenirCondensed;
+  src: url(https://image.6-79.cn/work/Avenir%20Next%20Condensed.ttc);
+}
 a {
   text-decoration: none;
 }
@@ -17,7 +21,7 @@ div {
 }
 .img-fit {
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
   display: inherit;
 }
@@ -30,18 +34,57 @@ body {
   height: 100%;
 }
 body {
+  background: #CFB7B7;
+}
+div.circle-1 {
+  position: fixed;
+  background: #A25052;
+  width: calc(2 * max(100vw, 100vh));
+  height: calc(2 * max(100vw, 100vh));
+  border-radius: calc(2 * max(100vw, 100vh));
+  left: calc(-1.5 * max(100vw, 100vh));
+  top: calc(-0.3 * max(100vw, 100vh));
+}
+div.circle-2 {
+  position: fixed;
+  background: #6C2627;
+  width: calc(max(100vw, 100vh));
+  height: calc(max(100vw, 100vh));
+  border-radius: calc(max(100vw, 100vh));
+  top: calc(0.8 * min(100vw, 100vh));
+}
+div.name-box {
+  position: fixed;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-body .namecard {
-  width: 620px;
-  height: 372px;
-  box-shadow: 10px 10px 10px #cccccc;
+div.name-box span {
+  font-family: AvenirCondensed, serif;
+  font-size: 50vw;
+  color: #2B1313;
 }
-body .namecard img {
+div.portrait-box {
+  position: fixed;
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+}
+div.portrait-box div.portrait {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://image.6-79.cn/work/red-t.png");
+  margin-top: 30vh;
+  filter: drop-shadow(10px 10px 30px #210b0c);
+  max-width: 500px;
+}
+div.portrait-box div.portrait:hover {
+  width: 102%;
+  height: 102%;
+  filter: drop-shadow(10px 10px 100px #210b0c);
+  max-width: 504px;
 }
 /*# sourceMappingURL=index.css.map */
